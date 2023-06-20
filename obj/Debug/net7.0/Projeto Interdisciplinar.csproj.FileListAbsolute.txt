@@ -1,0 +1,7 @@
+C:\Users\EtecHAS\Desktop\ProjetoInterdisciplinar_2Mod-main\obj\Debug\net7.0\Projeto Interdisciplinar.csproj.AssemblyReference.cache
+C:\Users\EtecHAS\Desktop\ProjetoInterdisciplinar_2Mod-main\obj\Debug\net7.0\Projeto Interdisciplinar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EtecHAS\Desktop\ProjetoInterdisciplinar_2Mod-main\obj\Debug\net7.0\Projeto Interdisciplinar.AssemblyInfoInputs.cache
+C:\Users\EtecHAS\Desktop\ProjetoInterdisciplinar_2Mod-main\obj\Debug\net7.0\Projeto Interdisciplinar.AssemblyInfo.cs
+C:\Users\EtecHAS\Desktop\ProjetoInterdisciplinar_2Mod-main\obj\Debug\net7.0\Projeto Interdisciplinar.csproj.CoreCompileInputs.cache
+C:\Users\EtecHAS\Desktop\ProjetoInterdisciplinar_2Mod-main\obj\Debug\net7.0\Projeto Interdisciplinar.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\EtecHAS\Desktop\ProjetoInterdisciplinar_2Mod-main\obj\Debug\net7.0\Projeto Interdisciplinar.MvcApplicationPartsAssemblyInfo.cache
