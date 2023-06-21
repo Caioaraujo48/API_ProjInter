@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SkhXbv++PrAPSrgkKcjH4ulTJAv9pFC/lKrlZGyKBCcxhlU6VLrY8AjrHMgxDgCb+S2GTZ9NCpyr8x/9KNSJfw==",
+  "dgSpecHash": "eYcR9OCZsqDMk/l0lukRTbRHq4hWJeWJofSldW/TdaiDD9ctdcQJWQ9D5V8MxoEl+rnKmPgeORUJ5moGivgGVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EtecHAS\\Desktop\\ProjetoInterdisciplinar_2Mod-main\\Projeto Interdisciplinar.csproj",
+  "projectFilePath": "C:\\Users\\EtecHAS\\Desktop\\API_ProjInter\\Projeto Interdisciplinar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EtecHAS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\EtecHAS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

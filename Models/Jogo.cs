@@ -9,7 +9,7 @@ namespace Projeto_Interdisciplinar.Models
         public string Nome { get; set; }
         public string Criador { get; set; }
         public string Empresa { get; set; }
-        public DateOnly Lançamento { get; set; }       
+        public DateTime Lançamento { get; set; }       
         public GeneroEnum Genero { get; set; }                      
     }
 }

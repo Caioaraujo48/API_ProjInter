@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Projeto_Interdisciplinar.Models;
 using System.Collections.Generic;
 using System.Linq;
+using Projeto_Interdisciplinar.Utils;
 
 
 
@@ -51,37 +52,7 @@ public class UsuariosController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
-    
-    [HttpPost("Autenticar")]
-    public async Task<IActionResult> AutenticarUsuario(Usuario credenciais)
-    {
-        try
-        {
-            Usuario usuario = await _context.Usuarios.FirstOrDefaultAsync(x => x.Username.ToLower().Equals(credenciais.Username.ToLower()));
 
-            if (usuario == null)
-            {
-                throw new System.Exception("Usuário não encontrado.");
-            }
-            else if (!Criptografia.VerificarPasswordHash(credenciais.PasswordString, usuario.PasswordHash, usuario.PasswordSalt))
-            {
-                throw new System.Exception("Senha incorreta.");
-            }
-            else
-            {
-                usuario.DataAcesso = System.DateTime.Now;
-                _context.Usuarios.Update(usuario);
-                await _context.SaveChangesAsync(); //Confirma a alteração no banco
-
-                return Ok(usuario);
-
-            }
-        }
-        catch (System.Exception ex)
-        {
-            return BadRequest(ex.Message);
-        }
-    }
     [HttpPut("AlterarSenha")]
     public async Task<IActionResult> AlterarSenhaUsuario (Usuario credenciais)
     {
@@ -129,24 +100,9 @@ public class UsuariosController : ControllerBase
                 .Include(no => no.Nome)
                 .Include(ge => ge.Genero)
                 .Include(em => em.Empresa)
-                .Include(ph => ph.JogoHabilidades)
                 .FirstOrDefaultAsync(pBusca => pBusca.Id == id);
 
             return Ok(p);
-        }
-        catch (System.Exception ex)
-        {
-            return BadRequest(ex.Message);
-        }
-    }
-    [HttpGet("GetGenero")]
-    public async Task<IActionResult> GetGenero()
-    {
-        try
-        {
-            List<Enum> genero = new List<Enum>();
-            genero = await _context.Genero.ToListAsync();
-            return Ok(genero);
         }
         catch (System.Exception ex)
         {

@@ -17,12 +17,12 @@ namespace Projeto_Interdisciplinar.Controllers
             _context = context;
         }
 
-         [HttpGet("{id}")] //Buscar pelo id
+        [HttpGet("{id}")] //Buscar pelo id
         public async Task<IActionResult> GetSingle(int id)
         {
             try
             {
-                Usuario p = await _context.Usuarios.FirstOrDefaultAsync(pBusca => pBusca.Id == id);
+                Jogo p = await _context.Jogos.FirstOrDefaultAsync(pBusca => pBusca.Id == id);
 
                 return Ok(p);
             }
@@ -37,7 +37,7 @@ namespace Projeto_Interdisciplinar.Controllers
         {
             try
             {
-                List<Usuario> lista = await _context.Usuarios.ToListAsync();
+                List<Jogo> lista = await _context.Jogos.ToListAsync();
                 return Ok(lista);
             }
             catch (System.Exception ex)
@@ -47,14 +47,14 @@ namespace Projeto_Interdisciplinar.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(Usuario novoUsuario)
+        public async Task<IActionResult> Add(Jogo novoJogo)
         {
             try
             {
-                await _context.Usuarios.AddAsync(novoUsuario);
+                await _context.Jogos.AddAsync(novoJogo);
                 await _context.SaveChangesAsync();
 
-                return Ok(novoUsuario);
+                return Ok(novoJogo);
             }
             catch (System.Exception ex)
             {
@@ -63,18 +63,35 @@ namespace Projeto_Interdisciplinar.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update(Usuario novoUsuario)
+        public async Task<IActionResult> Update(Jogo novoJogo)
         {
             try
-            {               
-                await _context.Usuarios.Update(novoUsuario);
-                await _context.SaveChangesAsync();
+            {
+                _context.Jogos.Update(novoJogo);
+                int linhasAfetadas = await _context.SaveChangesAsync();
 
-                return Ok(novoUsuario);
+                return Ok(novoJogo);
             }
             catch (System.Exception ex)
             {
                 return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                 Jogo pRemover = await _context.Jogos.FirstOrDefaultAsync(p => p.Id == id);
+
+                _context.Jogos.Remove(pRemover);
+                int linhaAfetadas = await _context.SaveChangesAsync();
+                return Ok(linhaAfetadas);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);                
             }
         }
     }
