@@ -1,0 +1,50 @@
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Projeto Interdisciplinar.exe
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\appsettings.Development.json
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\appsettings.json
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Projeto Interdisciplinar.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Projeto Interdisciplinar.runtimeconfig.json
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Projeto Interdisciplinar.pdb
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Azure.Core.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Azure.Identity.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.Data.SqlClient.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.Identity.Client.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.IdentityModel.Logging.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.IdentityModel.Protocols.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.IdentityModel.Tokens.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.OpenApi.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.SqlServer.Server.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Microsoft.Win32.SystemEvents.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\System.Configuration.ConfigurationManager.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\System.Drawing.Common.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\System.Memory.Data.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\System.Runtime.Caching.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\System.Security.Cryptography.ProtectedData.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\System.Security.Permissions.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\System.Windows.Extensions.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\publish\Projeto Interdisciplinar.deps.json

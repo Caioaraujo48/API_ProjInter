@@ -76,3 +76,8 @@ C:\Users\EtecHAS\Desktop\API_ProjInter\obj\Debug\net7.0\refint\Projeto Interdisc
 C:\Users\EtecHAS\Desktop\API_ProjInter\obj\Debug\net7.0\Projeto Interdisciplinar.pdb
 C:\Users\EtecHAS\Desktop\API_ProjInter\obj\Debug\net7.0\Projeto Interdisciplinar.genruntimeconfig.cache
 C:\Users\EtecHAS\Desktop\API_ProjInter\obj\Debug\net7.0\ref\Projeto Interdisciplinar.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\Humanizer.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\System.CodeDom.dll

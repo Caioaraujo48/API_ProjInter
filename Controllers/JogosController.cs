@@ -2,9 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using Projeto_Interdisciplinar.Data;
 using Projeto_Interdisciplinar.Models; 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 
-namespace Projeto_Interdisciplinar.Controllers
-{
+namespace Projeto_Interdisciplinar.Controllers;
+
     [ApiController]
     [Route("[Controller]")]
     public class UsuariosController : ControllerBase
@@ -95,4 +96,3 @@ namespace Projeto_Interdisciplinar.Controllers
             }
         }
     }
-}
