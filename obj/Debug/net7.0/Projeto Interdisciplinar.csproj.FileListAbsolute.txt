@@ -81,3 +81,8 @@ C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\Microsoft.EntityFramewor
 C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\publish\web.config
+C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\publish\appsettings.Development.json
+C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\publish\appsettings.json
+C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\publish\Projeto Interdisciplinar.deps.json
+C:\Users\EtecHAS\Desktop\API_ProjInter\bin\Debug\net7.0\publish\Projeto Interdisciplinar.runtimeconfig.json

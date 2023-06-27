@@ -2,17 +2,16 @@ using Microsoft.AspNetCore.Mvc;
 using Projeto_Interdisciplinar.Data;
 using Projeto_Interdisciplinar.Models; 
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Design;
 
-namespace Projeto_Interdisciplinar.Controllers;
-
+namespace Projeto_Interdisciplinar.Controllers
+{
     [ApiController]
     [Route("[Controller]")]
-    public class UsuariosController : ControllerBase
+    public class JogosController : ControllerBase
     {
          private readonly DataContext _context; //Declaração do atributo
 
-        public UsuariosController(DataContext context)
+        public JogosController(DataContext context)
         {
             //Inicialização do atributo a partir de um parâmetro          
             _context = context;
@@ -96,3 +95,4 @@ namespace Projeto_Interdisciplinar.Controllers;
             }
         }
     }
+}
