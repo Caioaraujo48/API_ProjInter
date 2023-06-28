@@ -16,6 +16,7 @@ namespace Projeto_Interdisciplinar.Models
         public string Criador { get; set; }
         public string Empresa { get; set; }
         public DateTime Lançamento { get; set; }       
-        public GeneroEnum Genero { get; set; }                      
+        public GeneroEnum Genero { get; set; } 
+        public byte[]? Foto { get; set; }                     
     }
 }
